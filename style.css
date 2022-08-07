@@ -13,11 +13,12 @@
   #container {
     width: 90%;
     margin: 30px 100px;
-    background: rgba(0, 0, 0, 0.3);
+    /* background: rgba(0, 0, 0, 0.3); */
   }
 
   
   #title {
+    background: rgba(0, 0, 0, 0.3);
     width: 100%;
     height: 75px;
     margin-top: 30px;
@@ -36,10 +37,36 @@
     letter-spacing: 0.05em;
     color: #ffffff;
     margin-top: 45px;
-  }
-  
-  span {
+}
+
+span {
     color: #ff0000;
+}
+
+#description{
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    
+}
+
+p{
+    
+    color: #ffffff;
+}
+
+#form-area {
+    display: flex;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    padding-top: 2rem;
   }
+
+
+#f-box{
+    
+    background: #000000;
+}
+
 
   
