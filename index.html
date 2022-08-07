@@ -32,14 +32,62 @@
                         
                         <label class="f-label" for="age">Age</label>
                         <br>
-                        <input type="text" name="Age" id="age">
+                        <input type="text" name="Age" id="age" placeholder="age">
                         <br>
                         
                         <label class="f-label" for="mail">Email</label>
                         <br>
-                        <input type="email" name="Email" id="mail">
+                        <input type="email" name="Email" id="mail" placeholder="enter your Email">
                         <br>
                     </div>
+
+                    <div class="box">
+                        <label for="content">Content Type</label><br>
+
+                        <select name="content-type" id="content">
+                            <option value="series">Series</option>
+                            <option value="movies">Movies</option>
+                            <option value="animation">Animation</option>
+    
+                        </select>
+                    </div>
+
+                    <div class="box"> 
+                        <label for="movie">Movie Type</label><br>
+
+                        <input type="checkbox" name="comedy" id="comedy">
+                        <label for="comedy">Comedy</label><br>
+
+                        <input type="checkbox" name="action" id="action">
+                        <label for="action">Action</label><br>
+
+                        <input type="checkbox" name="romance" id="romance">
+                        <label for="romance">Romance</label>
+
+                    </div>
+
+                    <div class="box">
+                        <label for="gender">Gender</label><br>
+
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label><br>
+
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label><br>
+
+                        <input type="radio" name="gender" id="other">
+                        <label for="other">Other</label>
+                    </div>
+
+                    <div class="box">
+                        <label for="feedback">Feedback</label><br>
+                        <textarea name="feedback" id="feedback">Any Comment</textarea>
+
+                    </div>
+
+                    <input type="submit" id="submit" value="Send">
+
+
                     
             </div>
                 
