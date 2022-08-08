@@ -28,13 +28,13 @@
 
   
   h1{
-    display: inline-block;
-    font-family: "Bowlby One SC";
+    display: inline-block; /* Eleman üzerinde bir genişlik ve yükseklik ayarlamaya izin vermesidir. */
+    font-family: 'Bowlby One SC', cursive;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
     line-height: 0%;
-    letter-spacing: 0.05em;
+    letter-spacing: 5%;
     color: #ffffff;
     margin-top: 45px;
 }
@@ -46,6 +46,10 @@ span {
 #description{
     background: rgba(0, 0, 0, 0.3);
     text-align: center;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+    font-size: 23px;
+
     
 }
 
@@ -55,6 +59,11 @@ p{
 }
 
 #form-area {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+   
     display: flex;
     background: rgba(0, 0, 0, 0.3);
     width: 100%;
@@ -98,21 +107,25 @@ p{
     height: 91px;
 }
 
-.box3{
+.box3 {
     text-align: center;
 }
 
 #submit{
-    display: flex;
+    
     width: 160px;
     height: 45px;
     margin: auto;
     color: #ffffff;
     background: #FF0000;
     border-radius: 50px;
-    
 
     
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0%;
+
+
 }
 
 
